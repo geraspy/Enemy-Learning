@@ -806,7 +806,7 @@ class FireballDuel:
             self.update_fireballs()
             self.update_explosions()
             self.check_fireball_collisions()  # Сначала проверяем столкновения снарядов
-            self.check_collisions()  # Потом столкновения с игроками
+            self.check_collisions()  # Потом столкновения с игроком
 
             self.draw()
             self.clock.tick(60)
